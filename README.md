@@ -1,17 +1,17 @@
 # Employee Data Insertion and Management
 
-## 📌 Objective
+##  Objective
 This mini-project demonstrates basic SQL operations — specifically `INSERT`, `UPDATE`, and `DELETE` — on an `employees` table using SQLite. It also covers handling `NULL` values and default data types.
 
-## 🛠️ Tools Used
+##  Tools Used
 - SQLiteStudio
 - DB Fiddle (SQLite)
 
-## 📂 Files
+##  Files
 - `employee_data.sql`: SQL script to create the table and perform data operations.
 - `README.md`: This documentation file.
 
-## 🧱 Table Structure
+##  Table Structure
 
 ### Table: `employees`
 
@@ -25,7 +25,7 @@ This mini-project demonstrates basic SQL operations — specifically `INSERT`, `
 
 ---
 
-## ▶️ Sample Insert Statement
+##  Sample Insert Statement
 
 ```sql
 INSERT INTO employees (id, name, department, salary, join_date) VALUES (1, 'Prasad', 'HR', 50000.00, CURRENT_DATE());
